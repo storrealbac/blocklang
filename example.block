@@ -1,0 +1,29 @@
+block print<string str> {
+    #do print
+
+    return str
+}
+
+block main {
+    x <- 2
+    y <- 3.1245
+
+    z <- "example"
+
+    
+    # < > <= >= = !
+    # if
+    block (x > 3) {
+    }
+
+    # loop
+    block (x >= 3) {
+        break
+        continue
+        repeat
+    }
+
+    return 0
+}
+
+main<>

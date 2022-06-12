@@ -1,0 +1,9 @@
+# Hola esta linea sera ignorado
+
+integer <- 123
+decimal <- 3.1415
+strings <- "Strings"
+
+print|decimal|
+print|"Hola"|
+print|"Hola"|
